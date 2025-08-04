@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+}
+button{
+  padding: 10px 20px;
+  color: #3498db;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover{
+  color: #2980b9;
+}
+#color{
+padding-bottom: 10px;
+}
